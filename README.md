@@ -18,5 +18,12 @@ and add the following line at the end of crontab
 
 @reboot python /path/to/playMP3.py &
 
-#Note:
+#Note 1:
 Since we're using omxplayer, the name of mp3 files should not contain any whitespace characters.
+#Note 2:
+#To stop playing,
+use the commands
+$ sudo pkill python
+$ sudo pkill omxplayer
+#To play next file
+$ sudo pkill omxplayer
